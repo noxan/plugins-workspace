@@ -1,5 +1,12 @@
 # Changelog
 
+## \[2.0.0-beta.12]
+
+### Dependencies
+
+- Upgraded to `notification@2.0.0-beta.9`
+- Upgraded to `os@2.0.0-beta.7`
+
 ## \[2.0.0-beta.11]
 
 ### Dependencies

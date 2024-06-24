@@ -1,5 +1,9 @@
 # Changelog
 
+## \[2.0.0-beta.9]
+
+- [`17c42fd4`](https://github.com/tauri-apps/plugins-workspace/commit/17c42fd42a93f9c9f29d7cb8f83570ba790120a6) ([#1459](https://github.com/tauri-apps/plugins-workspace/pull/1459) by [@naman-crabnebula](https://github.com/tauri-apps/plugins-workspace/../../naman-crabnebula)) Add `register_action_types` and `register_listener` permission command, so that new Action types can be registered and used on Android.
+
 ## \[2.0.0-beta.8]
 
 - [`3779fb50`](https://github.com/tauri-apps/plugins-workspace/commit/3779fb50634fba4d7e7eb0bfecc2216349b9d64d) ([#1432](https://github.com/tauri-apps/plugins-workspace/pull/1432) by [@lucasfernog](https://github.com/tauri-apps/plugins-workspace/../../lucasfernog)) Use notify_rust from crates.io instead of local fork.

@@ -91,7 +91,7 @@ importers:
         specifier: 2.0.0-beta.5
         version: link:../../plugins/notification
       '@tauri-apps/plugin-os':
-        specifier: 2.0.0-beta.5
+        specifier: 2.0.0-beta.6
         version: link:../../plugins/os
       '@tauri-apps/plugin-process':
         specifier: 2.0.0-beta.5
@@ -2668,9 +2668,9 @@ snapshots:
       - encoding
       - mocha
 
-  '@covector/assemble@0.11.0':
+  '@covector/assemble@0.11.0(mocha@10.4.0)':
     dependencies:
-      '@covector/command': 0.7.1
+      '@covector/command': 0.7.1(mocha@10.4.0)
       '@covector/files': 0.7.2
       effection: 2.0.8(mocha@10.4.0)
       js-yaml: 4.1.0
@@ -2681,9 +2681,10 @@ snapshots:
       unified: 9.2.2
     transitivePeerDependencies:
       - encoding
+      - mocha
       - supports-color
 
-  '@covector/changelog@0.11.0':
+  '@covector/changelog@0.11.0(mocha@10.4.0)':
     dependencies:
       '@covector/files': 0.7.2
       effection: 2.0.8(mocha@10.4.0)
@@ -2693,14 +2694,16 @@ snapshots:
       unified: 9.2.2
     transitivePeerDependencies:
       - encoding
+      - mocha
       - supports-color
 
-  '@covector/command@0.7.1':
+  '@covector/command@0.7.1(mocha@10.4.0)':
     dependencies:
-      '@effection/process': 2.1.4
+      '@effection/process': 2.1.4(mocha@10.4.0)
       effection: 2.0.8(mocha@10.4.0)
     transitivePeerDependencies:
       - encoding
+      - mocha
 
   '@covector/files@0.7.2':
     dependencies:
@@ -2747,10 +2750,8 @@ snapshots:
     dependencies:
       effection: 2.0.8(mocha@10.4.0)
       mocha: 10.4.0
-    transitivePeerDependencies:
-      - encoding
 
-  '@effection/process@2.1.4':
+  '@effection/process@2.1.4(mocha@10.4.0)':
     dependencies:
       cross-spawn: 7.0.3
       ctrlc-windows: 2.1.0
@@ -2758,6 +2759,7 @@ snapshots:
       shellwords: 0.1.1
     transitivePeerDependencies:
       - encoding
+      - mocha
 
   '@effection/stream@2.0.6':
     dependencies:
@@ -3544,9 +3546,9 @@ snapshots:
   covector@0.11.0(mocha@10.4.0):
     dependencies:
       '@covector/apply': 0.9.3(mocha@10.4.0)
-      '@covector/assemble': 0.11.0
-      '@covector/changelog': 0.11.0
-      '@covector/command': 0.7.1
+      '@covector/assemble': 0.11.0(mocha@10.4.0)
+      '@covector/changelog': 0.11.0(mocha@10.4.0)
+      '@covector/command': 0.7.1(mocha@10.4.0)
       '@covector/files': 0.7.2
       effection: 2.0.8(mocha@10.4.0)
       globby: 11.1.0
